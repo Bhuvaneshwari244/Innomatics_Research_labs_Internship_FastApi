@@ -1,0 +1,16 @@
+{
+  "best_deal": {
+    "id": 2,
+    "name": "Notebook",
+    "price": 199,
+    "category": "Stationery",
+    "in_stock": true
+  },
+  "premium_pick": {
+    "id": 1,
+    "name": "Smartphone",
+    "price": 59999,
+    "category": "Electronics",
+    "in_stock": true
+  }
+}

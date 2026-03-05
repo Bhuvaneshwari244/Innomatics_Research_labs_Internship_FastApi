@@ -1,0 +1,54 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Smartphone",
+      "price": 59999,
+      "category": "Electronics",
+      "in_stock": true
+    },
+    {
+      "id": 2,
+      "name": "Notebook",
+      "price": 199,
+      "category": "Stationery",
+      "in_stock": true
+    },
+    {
+      "id": 3,
+      "name": "Office Chair",
+      "price": 4500,
+      "category": "Furniture",
+      "in_stock": false
+    },
+    {
+      "id": 4,
+      "name": "Wireless Mouse",
+      "price": 899,
+      "category": "Electronics",
+      "in_stock": true
+    },
+    {
+      "id": 5,
+      "name": "Laptop Stand",
+      "price": 1299,
+      "category": "Electronics",
+      "in_stock": true
+    },
+    {
+      "id": 6,
+      "name": "Mechanical Keyboard",
+      "price": 2499,
+      "category": "Electronics",
+      "in_stock": true
+    },
+    {
+      "id": 7,
+      "name": "Webcam",
+      "price": 1899,
+      "category": "Electronics",
+      "in_stock": false
+    }
+  ],
+  "total": 7
+}

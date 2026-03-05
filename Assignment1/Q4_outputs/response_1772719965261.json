@@ -1,0 +1,11 @@
+{
+  "store_name": "My E-commerce Store",
+  "total_products": 7,
+  "in_stock": 5,
+  "out_of_stock": 2,
+  "categories": [
+    "Furniture",
+    "Stationery",
+    "Electronics"
+  ]
+}

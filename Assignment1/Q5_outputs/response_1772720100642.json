@@ -1,0 +1,13 @@
+{
+  "keyword": "mouse",
+  "results": [
+    {
+      "id": 4,
+      "name": "Wireless Mouse",
+      "price": 899,
+      "category": "Electronics",
+      "in_stock": true
+    }
+  ],
+  "total_matches": 1
+}
