@@ -27,3 +27,14 @@
 
 
   
+### ✅ FastAPI Assignment 3: Full CRUD Operations (Date: 12-03-2026)
+**Folder:** `IN226026002_FASTAPI/ASSIGNMENT 3/`
+**File:** `main.py`
+
+**Description:** Built out a complete CRUD (Create, Read, Update, Delete) lifecycle for an e-commerce inventory system, emphasizing proper HTTP status codes and route hierarchy.
+* **Q1: POST Operations:** Implemented product creation with auto-incrementing IDs and 400 Bad Request error handling for duplicate entries.
+* **Q2: PUT Operations (Single):** Designed a partial-update endpoint utilizing `Optional` typing to allow independent field updates (price and stock status).
+* **Q3: DELETE Operations:** Created secure deletion logic that successfully removes items or returns a 404 Not Found error if the ID does not exist.
+* **Q4: Full CRUD Lifecycle:** Successfully navigated a complete testing workflow (Add -> Verify -> Update -> Verify -> Delete -> Verify) using Swagger UI.
+* **Q5: Fixed Route Priority:** Built a `GET /products/audit` dashboard, properly routing it above dynamic ID paths to prevent URL conflicts, calculating total stock values and top-tier items.
+* **Bonus: PUT Operations (Bulk):** Engineered a multi-item update endpoint utilizing query parameters to apply mathematical percentage discounts across specific target categories.
