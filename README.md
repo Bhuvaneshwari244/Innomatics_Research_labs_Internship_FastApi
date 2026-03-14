@@ -38,3 +38,17 @@
 * **Q4: Full CRUD Lifecycle:** Successfully navigated a complete testing workflow (Add -> Verify -> Update -> Verify -> Delete -> Verify) using Swagger UI.
 * **Q5: Fixed Route Priority:** Built a `GET /products/audit` dashboard, properly routing it above dynamic ID paths to prevent URL conflicts, calculating total stock values and top-tier items.
 * **Bonus: PUT Operations (Bulk):** Engineered a multi-item update endpoint utilizing query parameters to apply mathematical percentage discounts across specific target categories.
+
+
+### ✅ FastAPI Assignment 4: State Management & Cart System (Date: 15-03-2026)
+**Folder:** `IN226026002_FASTAPI/ASSIGNMENT 4/`
+**File:** `main.py`
+
+**Description:** Designed a fully integrated Shopping Cart and Order Management system testing state retention across multiple endpoints.
+* **Q1: Add to Cart Logic:** Implemented a `/cart/add` endpoint to populate an in-memory cart array with dynamic subtotals.
+* **Q2: Cart Overview:** Built a `/cart` viewer that calculates real-time `grand_total` and item counts.
+* **Q3: Inventory Validation:** Added strict stock-checking logic that rejects out-of-stock items returning an HTTP 400 Bad Request.
+* **Q4: Duplicate Item Handling:** Engineered loop detection to update existing cart quantities rather than creating duplicate product entries.
+* **Q5: Checkout Workflow:** Connected `DELETE` endpoints for cart manipulation with a structured `/cart/checkout` endpoint that empties the user's session cart and transfers data to a persistent `/orders` log.
+* **Q6: Multi-Session Testing:** Verified the cart integrity handling consecutive checkout lifecycles for multiple users.
+* **Bonus: Graceful Error Handling:** Implemented edge-case protection to block checkout requests when the cart is empty.
