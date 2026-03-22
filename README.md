@@ -52,3 +52,35 @@
 * **Q5: Checkout Workflow:** Connected `DELETE` endpoints for cart manipulation with a structured `/cart/checkout` endpoint that empties the user's session cart and transfers data to a persistent `/orders` log.
 * **Q6: Multi-Session Testing:** Verified the cart integrity handling consecutive checkout lifecycles for multiple users.
 * **Bonus: Graceful Error Handling:** Implemented edge-case protection to block checkout requests when the cart is empty.
+
+
+### ✅ FastAPI Assignment 5: Search, Sort, and Pagination
+**Folder:** `IN226026002_FASTAPI/ASSIGNMENT 5/`
+**File:** `main.py`
+
+**Description:** Implemented advanced data retrieval techniques commonly used in production APIs, enabling clients to efficiently search, order, and page through large datasets.
+* **Q1: Case-Insensitive Search:** Tested text filtering using `.lower()` conversions to ensure flexible keyword matching across product names.
+* **Q2: Dynamic Sorting:** Explored sorting datasets via Python's `sorted()` function with dynamic lambda keys and reverse toggles.
+* **Q3: Index Pagination:** Utilized list slicing (`[start:start+limit]`) and ceiling division to chunk data into readable pages.
+* **Q4: Order Search Query:** Built a custom endpoint to filter through a secondary dataset (Orders) based on partial string matches of customer names.
+* **Q5: Multi-Key Sorting:** Developed a complex sorting mechanism grouping items first alphabetically by category, and subsequently ascending by price.
+* **Q6: The Master Browse Endpoint:** Combined Search, Sort, and Pagination into a single, highly flexible `GET /products/browse` endpoint, chaining data transformations sequentially.
+* **Bonus: Order Pagination:** Applied standard pagination architecture to the order ledger, proving the reusability of the math logic across different data models.
+
+---
+
+### 🏆 FastAPI Final Project: QuickBite Food Delivery
+**Folder:** `IN226026002_FASTAPI/FINAL_PROJECT/`
+**File:** `main.py`
+
+**Description:** Built a fully functional food delivery backend system from scratch using FastAPI, fulfilling the final 20-question project requirements.
+* **Core APIs (Q1-Q5):** Implemented robust GET endpoints for querying restaurant menus, active orders, and dynamically generating inventory summaries.
+* **Data Validation (Q6, Q11):** Enforced strict JSON payload requirements using Pydantic models and Field constraints (e.g., character limits, numeric boundaries) for incoming orders and new menu items.
+* **Business Logic (Q7-Q10):** Utilized isolated Python helper functions to filter data and dynamically calculate bills based on item quantities and delivery types.
+* **CRUD Operations (Q11-Q13):** Built a complete Create, Read, Update, and Delete lifecycle for the menu, handling 201 Created and 404 Not Found HTTP status codes appropriately.
+* **Multi-step Workflow (Q14-Q15):** Engineered a Cart and Checkout pipeline allowing users to add items, view dynamic subtotals, remove items, and securely check out to push records into an Orders ledger.
+* **Data Mastery (Q16-Q20):** Deployed a master `/browse` endpoint chaining Python List Comprehensions to filter, sort, and paginate dictionaries simultaneously, alongside dedicated search tools for the orders list.
+
+
+
+LinkedIN Post : https://www.linkedin.com/posts/bhuvaneshwari-rebba-650800280_fastapi-python-backenddevelopment-activity-7441394658250977280-3YQr?utm_source=share&utm_medium=member_desktop&rcm=ACoAAER2Y5wBFQn-3KxbyzrMce3aWEi7zP3K_os
